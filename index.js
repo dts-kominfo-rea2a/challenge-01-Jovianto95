@@ -2,14 +2,14 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
-// let restoMonica = new Set('Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi');
-setColorMonica = new Set();
+const setColorMonica = new Set();
 setColorMonica.add('Yellow');
 setColorMonica.add('Pink');
 setColorMonica.add('White');
 setColorMonica.add('Purple');
+setColorMonica.add('White');
 
-setRestoMonica = new Set ();
+const setRestoMonica = new Set ();
 setRestoMonica.add ('Bento');
 setRestoMonica.add ('Sushi');
 setRestoMonica.add ('Pancake');
@@ -36,12 +36,13 @@ const firstUser = {
     favoriteRestaurant: setRestoMonica
 };
 
-setColorWendy = new Set();
+const setColorWendy = new Set();
 setColorWendy.add ('Blue');
 setColorWendy.add ('Black');
 setColorWendy.add ('Grey');
+setColorWendy.add ('Grey');
 
-setRestoWendy = new Set ();
+const setRestoWendy = new Set ();
 setRestoWendy.add ('Tempura');
 setRestoWendy.add ('Bento');
 setRestoWendy.add ('Sushi');
